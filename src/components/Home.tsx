@@ -165,7 +165,7 @@ function Home() {
           </div>
         </div>
         {chucknorris ? (
-          <div className="flex flex-col items-center justify-self-center text-center w-50 h-105 rounded-tl-2xl pt-2 ">
+          <div className="flex flex-col items-center justify-self-center text-center w-50 h-110 rounded-tl-2xl pt-2 ">
             <img
               src={chucknorris.icon_url}
               alt={chucknorris.icon_url}
