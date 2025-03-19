@@ -47,7 +47,7 @@ interface KanyeData {
 function Home() {
   const [rickandmorty, setRickandMorty] = useState<RickandMorty | null>(null);
   const [characterID, setCharacterID] = useState<number>(1);
-  const [getTempo, setGetTempo] = useState<tempoData | []>([]);
+  const [getTempo, setGetTempo] = useState<tempoData[]>([]);
   const [chucknorris, setChuckNorris] = useState<ChuckNorris | null>(null);
   const [kanye, setKanye] = useState<KanyeData | null>(null);
 
@@ -105,7 +105,7 @@ function Home() {
 
   useEffect(() => {
     loadKanye();
-  }, [])
+  }, []);
 
   return (
     <section className="h-full">
@@ -151,9 +151,9 @@ function Home() {
           Tempo
         </h1>
         {getTempo.length > 0 &&
-          getTempo.map((data, index) => (
-            <div className="select-none">
-              <ApiTempo key={data.date} weather={data} />
+          getTempo.map((data: tempoData) => (
+            <div className="select-none" key={data.date}>
+              <ApiTempo weather={data} />
             </div>
           ))}
         <div
@@ -193,7 +193,7 @@ function Home() {
         ) : (
           <div>Loading...</div>
         )}
-         <div
+        <div
           className="flex flex-col xl:flex-row items-center gap-5 mt-7 select-none"
           onClick={loadKanye}
         >
