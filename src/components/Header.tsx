@@ -8,9 +8,9 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full h-20 flex items-center justify-between px-5 sm:px-10 md:px-20 relative">
+    <header className="w-full h-20 flex items-center justify-between px-5 sm:px-10 md:px-20 relative select-none">
       <div className="flex items-center">
-        <img src="\Logo.svg" alt="Logo" className="w-30 h-10" />
+        <img src="\icon-api.png" alt="Logo" className="w-10 h-10" />
       </div>
 
       {/* Desktop Navigation */}
@@ -22,18 +22,11 @@ const Header = () => {
           <strong className="text-gray-800 hover:text-gray-700">Tempo</strong>
         </div>
         <div>
-          <strong className="text-gray-800 hover:text-gray-700">Community</strong>
+          <strong className="text-gray-800 hover:text-gray-700">ChuckNorris</strong>
         </div>
         <div>
-          <strong className="text-gray-800 hover:text-gray-700">Blog</strong>
+          <strong className="text-gray-800 hover:text-gray-700">Kanye</strong>
         </div>
-        <div>
-          <strong className="text-gray-800 hover:text-gray-700">Pricing</strong>
-        </div>
-        <button className="flex items-center h-10 px-4 rounded-sm bg-green-600 text-amber-50 hover:bg-green-500">
-          Register Now
-          <img src="./public/seta-direita.png" alt="Arrow" className="ml-2 w-4 h-4" />
-        </button>
       </nav>
 
       {/* Mobile Menu Button */}

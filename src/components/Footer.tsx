@@ -4,9 +4,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center text-center justify-center md:text-left">
           <div className="flex flex-col w-full md:w-1/3 mb-5 md:mb-0">
             <img
-              src="/Logo branca.svg"
-              alt="Logo"
-              className="w-40 mb-2 mx-auto md:mx-0"
+              src="\icon-api.png"
+              alt="icon-api"
+              className="w-10 mb-2 mx-auto md:mx-0"
             />
             <div className="text-gray-500 mt-3">
               <span>
