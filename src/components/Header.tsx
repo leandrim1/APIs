@@ -44,24 +44,17 @@ const Header = () => {
         <div className="absolute top-20 left-0 w-full bg-white shadow-lg z-10">
           <nav className="flex flex-col items-center py-4">
             <div className="py-2">
-              <strong className="text-gray-800 hover:text-gray-700">Home</strong>
+              <strong className="text-gray-800 hover:text-gray-700">Rick</strong>
             </div>
             <div className="py-2">
-              <strong className="text-gray-800 hover:text-gray-700">Features</strong>
+              <strong className="text-gray-800 hover:text-gray-700">Tempo</strong>
             </div>
             <div className="py-2">
-              <strong className="text-gray-800 hover:text-gray-700">Community</strong>
+              <strong className="text-gray-800 hover:text-gray-700">ChuckNorris</strong>
             </div>
             <div className="py-2">
-              <strong className="text-gray-800 hover:text-gray-700">Blog</strong>
+              <strong className="text-gray-800 hover:text-gray-700">Kanye</strong>
             </div>
-            <div className="py-2">
-              <strong className="text-gray-800 hover:text-gray-700">Pricing</strong>
-            </div>
-            <button className="flex items-center h-10 px-4 mt-2 rounded-sm bg-green-600 text-amber-50 hover:bg-green-500">
-              Register Now
-              <img src="\seta-direita.png" alt="Arrow" className="ml-2 w-4 h-4" />
-            </button>
           </nav>
         </div>
       )}
