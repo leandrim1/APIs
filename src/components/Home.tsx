@@ -172,14 +172,14 @@ function Home() {
               className="flex justify-center w-50 pb-6 select-none"
             />
             <div>{chucknorris.id}</div>
-            <div>Status: {chucknorris.url}</div>
-            <p>Species: {chucknorris.value}</p>
+            <div className="text-sm">Status: {chucknorris.url}</div>
+            <p className="text-sm">Species: {chucknorris.value}</p>
           </div>
         ) : (
           <div>Loading...</div>
         )}
         <div
-          className="flex flex-col xl:flex-row items-center gap-5 mt-7 select-none"
+          className="flex flex-col xl:flex-row items-center gap-5 mt-10 select-none"
           onClick={loadChuckNorris}
         >
           <div className="text-sm text-center text-amber-50 w-30 h-10 pt-2 mb-10 rounded-sm bg-green-600 transition duration-300 ease-in-out hover:scale-90 sm:w-40 sm:h-10 sm:pt-2">
