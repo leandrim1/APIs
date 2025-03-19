@@ -111,7 +111,7 @@ function Home() {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-30">
-          <div className="text-center xl:text-left mt-18 xl:mt-18 text-4xl xl:text-6xl text-gray-800 select-none">
+          <div className="text-center xl:text-left mt-18 xl:mt-18 ml-0 xl:ml-20 text-4xl xl:text-6xl text-gray-800 select-none">
             <h1>
               Rick and Morty <br />{" "}
               <span className="text-green-600">since 12 years</span>
@@ -157,7 +157,7 @@ function Home() {
             </div>
           ))}
         <div
-          className="flex flex-col xl:flex-row items-center gap-5 mt-7 select-none"
+          className="flex flex-col xl:flex-row items-center gap-5 mt-7 ml-0 xl:ml-20 select-none"
           onClick={loadTempo}
         >
           <div className="text-sm text-center text-amber-50 w-30 h-10 pt-2 mb-10 rounded-sm bg-green-600 transition duration-300 ease-in-out hover:scale-90 sm:w-40 sm:h-10 sm:pt-2">
@@ -179,7 +179,7 @@ function Home() {
           <div>Loading...</div>
         )}
         <div
-          className="flex flex-col xl:flex-row items-center gap-5 mt-10 select-none"
+          className="flex flex-col xl:flex-row items-center gap-5 mt-10 ml-0 xl:ml-20 select-none"
           onClick={loadChuckNorris}
         >
           <div className="text-sm text-center text-amber-50 w-30 h-10 pt-2 mb-10 rounded-sm bg-green-600 transition duration-300 ease-in-out hover:scale-90 sm:w-40 sm:h-10 sm:pt-2">
@@ -194,7 +194,7 @@ function Home() {
           <div>Loading...</div>
         )}
         <div
-          className="flex flex-col xl:flex-row items-center gap-5 mt-7 select-none"
+          className="flex flex-col xl:flex-row items-center gap-5 mt-7 ml-0 xl:ml-20 select-none"
           onClick={loadKanye}
         >
           <div className="text-sm text-center text-amber-50 w-30 h-10 pt-2 mb-10 rounded-sm bg-green-600 transition duration-300 ease-in-out hover:scale-90 sm:w-40 sm:h-10 sm:pt-2">
