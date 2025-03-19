@@ -17,7 +17,7 @@ function ApiTempo({ weather }: WeatherProps) {
 
   return (
     <div className="flex flex-col items-center justify-center p-5 text-white rounded-lg ">
-      <form className="flex flex-col md:flex-row items-center justify-center gap-10 bg-green-700 p-5 w-100 rounded-lg shadow-md md:w-150">
+      <form className="flex flex-col md:flex-row items-center justify-center gap-10 bg-green-700 p-5 w-90 rounded-lg shadow-md md:w-150">
         <div className="text-lg font-semibold">
           {new Date(weather.date).toLocaleString()}
         </div>
