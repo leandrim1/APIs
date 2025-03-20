@@ -41,7 +41,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-20 left-0 w-full bg-white shadow-lg z-10">
+        <div className="md:hidden absolute top-20 left-0 w-full bg-white shadow-lg z-10">
           <nav className="flex flex-col items-center py-4">
             <div className="py-2">
               <strong className="text-gray-800 hover:text-gray-700">Rick</strong>
