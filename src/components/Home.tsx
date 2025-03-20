@@ -111,7 +111,7 @@ function Home() {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-30">
-          <div className="text-center xl:text-left mt-18 xl:mt-18 ml-0 xl:ml-20 text-4xl xl:text-6xl text-gray-800 select-none">
+          <div className="text-center xl:text-left mt-18 xl:mt-18 ml-0 xl:ml-30 text-4xl xl:text-6xl text-gray-800 select-none">
             <h1>
               Rick and Morty <br />{" "}
               <span className="text-green-600">since 12 years</span>
@@ -129,7 +129,7 @@ function Home() {
             </div>
           </div>
           {rickandmorty ? (
-            <div className="w-100 h-115 rounded-tl-2xl text-center justify-items-center pt-2 ">
+            <div className="w-100 h-115 rounded-tl-2xl text-center justify-items-center pt-2 ml-0 xl:mr-30 mt-20 ">
               <img
                 src={rickandmorty.image}
                 alt={rickandmorty.name}
