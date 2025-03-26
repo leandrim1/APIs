@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiTempo = axios.create({
-    baseURL: 'https://api.rotary.enoki.com.br/WeatherForecast',
+    baseURL: 'https://apitreinotempo.up.railway.app/WeatherForecast/GetTempo',
     headers: {
         'Content-Type': 'application/json',
     },
